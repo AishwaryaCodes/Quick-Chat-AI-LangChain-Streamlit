@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.*
+
+# Streamlit cache and logs
+.streamlit/
+*.log
+
+# VS Code settings
+.vscode/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ollama model data (if any gets downloaded locally)
+ollama/
+
+# Jupyter notebook checkpoints (if any)
+.ipynb_checkpoints/
